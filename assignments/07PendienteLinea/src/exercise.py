@@ -2,10 +2,10 @@ def main():
     #escribe tu código abajo de esta línea
     #Lee los datos
 
-    x1=float(input("Give me an X coordinate"))
-    y1=float(input("Give me a Y coordinate"))
-    x2=float(input("Give me another X coordinate"))
-    y2=float(input("Give me another Y coordinate"))
+    x1=float(input("Dame x1", ))
+    y1=float(input("Dame y1", ))
+    x2=float(input("Dame x2", ))
+    y2=float(input("Dame y2", ))
     s= (y2-y1)/(x2-x1)
     print("the slope of the coordinates is", s)
 
