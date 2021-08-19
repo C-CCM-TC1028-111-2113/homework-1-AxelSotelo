@@ -5,8 +5,8 @@ def main():
     egr= float(input(" Dame los egresos: "))
     cheq= int(input("Dame el número de cheques: "))
 
-    s= (ant+ing-egr)-(cheq*13)
-    sn=s-(s*.075)
+    s= ant+ing-egr-13*cheq
+    sn=s-.075*s
     
     print("El saldo final de la cuenta es:", sn) 
 
