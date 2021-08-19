@@ -1,8 +1,12 @@
 def main():
     #escribe tu código abajo de esta línea
+    import math
    
-    m = float(input("Dame los minutos:"))
-    cm = m * ((5.7*0.1)*60)
+    m = float(input("Dame los minutos: "))
+    s = m*60
+    mm = s * (5.7)
+    cm = mm/10
+    
 
     print("Centímentros recorridos:", cm)
     
